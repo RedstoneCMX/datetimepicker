@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+
+.head{
+	text-align: center;
+	font-family: 微软雅黑;
+	font-size: 25px;
+	padding-top: 80px;
+}
+.datetimepicker{
+	height: 20px;
+	width: 900px;
+	margin:auto;
+	padding-top: 50px;
+}
+.select{
+	width: 28px;
+	height: 16px;
+	float: left;
+	background: #1E90FF;
+	color:#FFFFFF;
+	text-align: center;
+	cursor: pointer;
+	font-family: 微软雅黑;
+	font-weight: bold;
+	line-height: 16px;
+}
+.select:hover{
+	background: #2495ce;
+}
+.yearmonth{
+	width: 80px;
+	float: left;
+	background: #ccc;
+	margin-left: 2px;
+	margin-right: 2px;
+	color:#FFFFFF;
+	font-family: 微软雅黑;
+	font-size: 13px;
+	text-align: center;
+	cursor: pointer;
+}
+.yearmonth:hover{
+	background: #8B8B7A;
+}
+.day{
+	float: left;
+	margin-left: 30px;
+	
+}
+#everydaylist{
+	font-size:18px;
+	padding:0;
+ 	margin:0;
+}
+
+#everydaylist li{
+	list-style-image: none;
+	list-style-type: none;
+	float:left;
+	display: block;
+	width:20px;
+ 	height:16px;
+ 	line-height: 16px;
+ 	background: #cccccc;
+ 	margin-left: 2px;
+ 	color: #FFFFFF;
+ 	font-family: 微软雅黑;
+ 	font-size: 10px;
+ 	text-align: center;
+ 	cursor: pointer;
+ 	-webkit-transition:margin-top 0.5s,width 0.5s;
+	-ms-transition:margin-top 0.5s,width 0.5s;
+	-o-transition:margin-top 0.5s,width 0.5s;
+	-moz-transition:margin-top 0.5s,width 0.5s;
+
+}
+
+
+
+#everydaylist li:hover{
+	width:25px;
+ 	height:22px;
+	line-height: 22px;
+	margin-top: -6px;
+}
+
+
+.showdate{
+	text-align: center;
+	font-family: 微软雅黑;
+	font-size: 20px;
+	padding-top: 50px;
+}
